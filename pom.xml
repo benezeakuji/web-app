@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>ACADA Learning Releases Nexus Repository</name>
-	      <url>http://52.206.211.161:8081/repository/jay-release/</url>
+	      <url>http://44.201.250.45:8081/repository/web-app-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>ACADA Learning Snapshot Nexus Repository </name>
-	      <url>http://52.206.211.161:8081/repository/jay-snapshot/</url>
+	      <url>http://44.201.250.45:8081/repository/web-app-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
