@@ -45,7 +45,7 @@ input message: 'Approval for Production'
 stage('DeploytoProd'){
 steps{
 sh "echo Deploy to Prod"
-deploy adapters: [tomcat9(credentialsId: '669caefc-9745-45ac-a8b8-bab56e4df21c', path: '', url: 'http://http://52.201.233.79:7000/')], contextPath: null, war: 'target/*.war'
+deploy adapters: [tomcat9(credentialsId: '669caefc-9745-45ac-a8b8-bab56e4df21c', path: '', url: 'http://52.201.233.79:7000/')], contextPath: null, war: 'target/*.war'
 }
 }
 }
